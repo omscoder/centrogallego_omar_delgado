@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="./Images/favicon-32x32.png">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+            <img src="./Images/Logo_CG.jpg" alt="Logo Centro Gallego" width="200">
+            <h1>Centro Gallego F.C.</h1>
+        <hr>
+        <nav>
+            <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="historia.html">Historia</a></li>
+            <li><a href="Socios.html">Socios</a></li>
+            <li><a href="Tienda.html">Tienda</a></li>
+            <li><a>Contacto</a></li>
+            <li><a href="Lista_de_jugadores.html">Jugadores</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+    <section>
+        <h3>Formulario de Contacto</h3>
+        <form action="">
+            <fieldset>
+            <legend>Llena los espacios en blanco</legend>
+            <div>
+                <label for="nombre">Escribe tu nombre</label>
+                <input type="text" name="nombre">
+            </div><br>
+            <div>
+                <label for="apellido">Escribe tu apellido</label>
+                <input type="text" name="apellido">
+            </div><br>
+            <div>
+                <label for="correo electronico *">Escribe tu correo electronico *</label>
+                <input type="email" name="correo electronico *" required>
+            </div><br>
+            <div>
+                <label for="contraseña">Escribe tu contraseña</label>
+                <input type="text" name="contraseña">
+            </div><br>
+                <input type="radio" value="hombre">Hombre
+                <input type="radio" value="mujer">Mujer
+            <br>
+            <br>
+            <div>Nacionalidad <br>
+                <select name="Nacionalidad">
+                <option value="Nacionalidad">Uruguay</option>
+                <option value="Nacionalidad">Brasil</option>
+                <option value="Nacionalidad">Paraguay</option>
+                </select>
+            </div>
+            <br>
+            <div>Acepta terminos y condiciones *</div>
+            <input type="checkbox" name="aceptar" value="1" required>
+            <br>
+            <input type="submit" value="Enviar Formulario"/>
+            <input type="reset" value="Limpiar"/>
+            </fieldset>
+        </form>
+    </section>
+    </main>
+    <hr>
+    <footer>
+        <img src="./Images/Logo_footer.jpg" alt="Logo footer" width="70">
+        <h4><a href="https://centrogallego.com.uy" target="_blank">Sede Central</a>
+        <h5>Centro Gallego de Montevideo</h5>
+        <h5>By Omar Delgado</h5>
+    </footer>
+</body>
+</html>
