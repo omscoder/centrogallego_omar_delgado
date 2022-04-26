@@ -17,6 +17,10 @@ body{
     background-image: url(./Images/Background_body1.jpg);
     background-size: cover;
 }
+.navbar-brand,.nav-link{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+}
 hr{
     color: black;
 }
@@ -115,7 +119,7 @@ footer{
 .Tienda{
     grid-area: Tienda;
 }
-.Remeras_de_entrenamiento{
+.Remeras_de_entrenamiento,.Remeras_de_competencia,.Equipos_de_invierno,.Banderas{
     grid-area: Remeras_de_entrenamiento;
     background-color: rgb(6, 143, 136);
     color: rgb(255, 255, 255);
@@ -128,42 +132,24 @@ footer{
 .Remeras_de_entrenamiento:hover{
     transform: scale(1.1, 1.1);
 }
-.Remeras_de_competencia{
-    grid-area: Remeras_de_competencia;
-    background-color: rgb(6, 143, 136);
-    color: rgb(255, 255, 255);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 1.8rem;
-    border-style: groove;
-    border-color: rgb(3, 70, 64);
-    border-radius: 10px;
-}
 .Remeras_de_competencia:hover{
     transform: scale(1.1, 1.1);
-}
-.Equipos_de_invierno{
-    grid-area: Equipos_de_invierno;
-    background-color: rgb(6, 143, 136);
-    color: rgb(255, 255, 255);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 1.8rem;
-    border-style: groove;
-    border-color: rgb(3, 70, 64);
-    border-radius: 10px;
 }
 .Equipos_de_invierno:hover{
     transform: scale(1.1, 1.1);
 }
-.Banderas{
-    grid-area: Banderas;
-    background-color: rgb(6, 143, 136);
-    color: rgb(255, 255, 255);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 1.8rem;
-    border-style: groove;
-    border-color: rgb(3, 70, 64);
-    border-radius: 10px;
-}
 .Banderas:hover{
     transform: scale(1.1, 1.1);
+}
+.mb-3{
+    width: 50%;
+    margin-left: 2rem;
+}
+.formulario_de_contacto{
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    color:black;
+}
+#link_directo:link{
+    text-decoration: none;
 }
