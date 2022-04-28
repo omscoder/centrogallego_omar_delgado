@@ -31,7 +31,10 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto auto auto;
-  grid-template-areas: "header header" "puerta_cg puerta_cg" "cuerpo clasificacion" "footer footer";
+  grid-template-areas: "header header"
+ "puerta_cg puerta_cg"
+ "cuerpo clasificacion"
+ "footer footer";
   grid-column-gap: 10px;
   grid-row-gap: 10px;
 }
@@ -74,7 +77,11 @@ section#clasificacion iframe {
 
 @media screen and (max-width: 768px) {
   .grid1 {
-    grid-template-areas: "header header" "puerta_cg puerta_cg" "cuerpo cuerpo" "calificacion calificacion" "footer footer";
+    grid-template-areas: "header header"
+ "puerta_cg puerta_cg"
+ "cuerpo cuerpo"
+ "calificacion calificacion"
+ "footer footer";
   }
   section#puerta_cg {
     width: 100%;
@@ -165,5 +172,5 @@ footer {
 
 footer #link_directo:link {
   text-decoration: none;
-}
+} 
 /*# sourceMappingURL=style.css.map */
