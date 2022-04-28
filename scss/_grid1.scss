@@ -1,0 +1,68 @@
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+        "header header"
+        "puerta_cg puerta_cg"
+        "cuerpo clasificacion"
+        "footer footer";
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+header {
+    grid-area: header;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+section#puerta_cg {
+    grid-area: puerta_cg;
+    text-align: center;
+    width: 100%;
+}
+
+section#cuerpo {
+    grid-area: cuerpo;
+    width: 90%;
+    height: 90%;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-style: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    justify-items: center;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 2rem;
+    overflow: auto;
+}
+
+section#clasificacion iframe {
+    grid-area: clasificacion;
+    width: 90%;
+    height: 500px;
+}
+
+@media screen and (max-width: 768px) {
+    .grid1 {
+        grid-template-areas:
+            "header header"
+            "puerta_cg puerta_cg"
+            "cuerpo cuerpo"
+            "calificacion calificacion"
+            "footer footer";
+    }
+
+    section#puerta_cg {
+        width: 100%;
+        text-align: center;
+    }
+
+    section#clasificacion iframe {
+        width: 200%;
+    }
+}

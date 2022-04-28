@@ -1,0 +1,33 @@
+.Tienda {
+    grid-area: Tienda;
+}
+
+.Remeras_de_entrenamiento,
+.Remeras_de_competencia,
+.Equipos_de_invierno,
+.Banderas {
+    grid-area: Remeras_de_entrenamiento;
+    background-color: rgb(6, 143, 136);
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.8rem;
+    border-style: groove;
+    border-color: rgb(3, 70, 64);
+    border-radius: 10px;
+}
+
+.Remeras_de_entrenamiento:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.Remeras_de_competencia:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.Equipos_de_invierno:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.Banderas:hover {
+    transform: scale(1.1, 1.1);
+}
