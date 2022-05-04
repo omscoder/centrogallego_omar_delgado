@@ -1,11 +1,11 @@
 .Tienda {
     grid-area: Tienda;
 }
+.transform{
+    transform: scale(1.1, 1.1);
+}
 
-.Remeras_de_entrenamiento,
-.Remeras_de_competencia,
-.Equipos_de_invierno,
-.Banderas {
+@mixin botones_tienda {
     grid-area: Remeras_de_entrenamiento;
     background-color: rgb(6, 143, 136);
     color: rgb(255, 255, 255);
@@ -16,18 +16,32 @@
     border-radius: 10px;
 }
 
-.Remeras_de_entrenamiento:hover {
-    transform: scale(1.1, 1.1);
+.Remeras_de_entrenamiento {
+    @include botones_tienda;
+}
+.Remeras_de_entrenamiento:hover{
+    @extend .transform;
 }
 
+.Remeras_de_competencia {
+    @include botones_tienda;
+}
 .Remeras_de_competencia:hover {
-    transform: scale(1.1, 1.1);
+    @extend .transform;
 }
 
-.Equipos_de_invierno:hover {
-    transform: scale(1.1, 1.1);
+.Equipos_de_invierno {
+    @include botones_tienda;
+}
+
+.Equipos_de_invierno:hover{
+    @extend .transform;
+}
+
+.Banderas {
+    @include botones_tienda;
 }
 
 .Banderas:hover {
-    transform: scale(1.1, 1.1);
+    @extend .transform;
 }
