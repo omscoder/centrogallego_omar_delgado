@@ -12,3 +12,19 @@
     word-spacing: 5px;
     line-height: 2rem;
 }
+@media screen and (max-width: 768px) {
+    .parrafo_historia {
+        margin: 10px 75px;
+        padding: 2px;
+        color: rgb(255, 255, 255);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1rem;
+        text-align: center;
+        border-style: dashed;
+        border-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        line-height: 1rem;
+    }
+}

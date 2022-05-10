@@ -2,3 +2,9 @@ body {
     background-image: url("../Images/Background_body1.jpg");
     background-size: cover;
 }
+@media screen and (max-width: 768px) {
+    body {
+        background-image: url("../Images/Background_body1.jpg");
+        background-size: cover;
+    }
+}
