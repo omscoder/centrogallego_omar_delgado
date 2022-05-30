@@ -52,8 +52,11 @@ header {
 
 section#puerta_cg {
   grid-area: puerta_cg;
+  margin-top: 1%;
   text-align: center;
-  width: 100%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 section#cuerpo {
@@ -70,7 +73,6 @@ section#cuerpo {
   letter-spacing: 2px;
   word-spacing: 5px;
   line-height: 2rem;
-  overflow: auto;
 }
 
 section#clasificacion iframe {
@@ -84,7 +86,9 @@ section#clasificacion iframe {
     grid-template-areas: "header header" "puerta_cg puerta_cg" "cuerpo cuerpo" "calificacion calificacion" "footer footer";
   }
   section#puerta_cg {
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
     text-align: center;
   }
   section#clasificacion iframe {
@@ -109,7 +113,7 @@ section#clasificacion iframe {
 
 @media screen and (max-width: 768px) {
   .parrafo_historia {
-    margin: 10px 75px;
+    margin: 5px 50px;
     padding: 2px;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -189,12 +193,47 @@ h3 {
 .mb-3 {
   width: 50%;
   margin-left: 2rem;
+  color: #094b72;
+  font-size: 1.5rem;
+}
+
+.form-check-label {
+  color: #094b72;
+}
+
+.btn {
+  margin-left: 2rem;
 }
 
 .formulario_de_contacto {
+  width: 50%;
+  background-color: #068f88;
+  border-radius: 3%;
+  color: #f8f9fa;
+  margin-left: 20rem;
+  font-size: 1.5rem;
+  font-style: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .formulario_de_contacto {
+    width: 80%;
+    background-color: #068f88;
+    text-align: center;
+    border-radius: 3%;
+    color: #f8f9fa;
+    margin-left: 4rem;
+    font-size: 1.5rem;
+    font-style: bold;
+  }
+}
+
+.table {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
   color: #094b72;
-  margin-left: 2rem;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 footer {

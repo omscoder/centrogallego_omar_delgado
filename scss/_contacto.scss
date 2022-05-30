@@ -1,5 +1,22 @@
 .formulario_de_contacto {
-    color: $colorcg;
-    margin-left: 2rem;
-    font-size: 1.2rem;
+    width: 50%;
+    background-color: $colortienda;
+    border-radius: 3%;
+    color: $colorh3;
+    margin-left: 20rem;
+    font-size: 1.5rem;
+    font-style: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .formulario_de_contacto {
+        width: 80%;
+        background-color: $colortienda;
+        text-align: center;
+        border-radius: 3%;
+        color: $colorh3;
+        margin-left: 4rem;
+        font-size: 1.5rem;
+        font-style: bold;
+    }
 }

@@ -20,8 +20,11 @@ header {
 
 section#puerta_cg {
     grid-area: puerta_cg;
+    margin-top: 1%;
     text-align: center;
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 section#cuerpo {
@@ -38,7 +41,6 @@ section#cuerpo {
     letter-spacing: 2px;
     word-spacing: 5px;
     line-height: 2rem;
-    overflow: auto;
 }
 
 section#clasificacion iframe {
@@ -56,13 +58,14 @@ section#clasificacion iframe {
             "calificacion calificacion"
             "footer footer";
     }
-
     section#puerta_cg {
-        width: 100%;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
         text-align: center;
     }
-
     section#clasificacion iframe {
         width: 200%;
     }
+    
 }
